@@ -22,7 +22,7 @@ function cafe_css() {
 	$handle = defined( 'CHILD_THEME_NAME' ) && CHILD_THEME_NAME ? sanitize_title_with_dashes( CHILD_THEME_NAME ) : 'child-theme';
 
 	$color = get_theme_mod( 'cafe_accent_color', cafe_customizer_get_default_accent_color() );
-	$opts  = apply_filters( 'cafe_images', array( 'header', '2', '4' ) );
+	$opts  = apply_filters( 'cafe_images', array( 'header', '2', '1', '4' ) );
 
 	$settings = array();
 

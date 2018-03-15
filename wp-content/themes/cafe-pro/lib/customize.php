@@ -38,7 +38,7 @@ function cafe_customizer(){
 	global $wp_customize;
 
 	// Front page images.
-	$images = apply_filters( 'cafe_images', array( 'header', '2', '4' ) );
+	$images = apply_filters( 'cafe_images', array( 'header', '2', '1', '4' ) );
 	
 	$wp_customize->add_section( 'cafe-settings', array(
 		'description' => __( 'Use the included default images or personalize your site by uploading your own images.<br /><br />The default images are <strong>2000 pixels wide and between 1300-1500 pixels tall</strong>.', 'cafe-pro' ),

@@ -432,9 +432,9 @@ input[type="button"],
 input[type="reset"],
 input[type="submit"],
 .button {
-	background-color: #000;
-	border: 1px solid #fff;
-	box-shadow: 0px 0px 0px 10px #000;
+	background-color: #990000;
+	border: 1px solid #996633;
+	box-shadow: 0px 0px 0px 5px #996633;
 	color: #fff;
 	cursor: pointer;
 	font-family: 'Dosis', sans-serif;
@@ -464,8 +464,8 @@ input:hover[type="submit"],
 .footer-widgets input[type="button"],
 .footer-widgets input[type="reset"],
 .footer-widgets input[type="submit"] {
-	background-color: #a0ac48;
-	box-shadow: 0px 0px 0px 10px #a0ac48;
+	background-color: #996633;
+	box-shadow: 0px 0px 0px 10px #000;
 	color: #fff;
 }
 
@@ -837,8 +837,7 @@ th {
 }
 
 .widget-title {
-	font-size: 18px;
-	font-size: 1.8rem;
+	font-size: 28px;
 	letter-spacing: 2px;
 	margin-bottom: 28px;
 	text-transform: uppercase;
@@ -1522,7 +1521,7 @@ img.alignright,
 .solid-section .widget-area {
 	clear: both;
 	overflow: hidden;
-	padding: 200px 0;
+	padding: 130px 0;
 	text-align: center;
 }
 
@@ -1584,6 +1583,11 @@ img.alignright,
 .front-page-3 {
 	background-color: #cc9966;
 	color: #fff;
+}
+
+.front-page-1 {
+	background-color: #cc9966;
+	color: #000;
 }
 
 .image-section .widget {
@@ -1838,8 +1842,8 @@ li.comment.depth-1 {
 ---------------------------------------------------------------------------------------------------- */
 
 .sidebar {
-	font-size: 16px;
-	font-size: 1.6rem;
+	font-size: 20px;
+	/* font-size: 1.6rem; */
 	margin-bottom: 60px;
 }
 
@@ -1875,13 +1879,13 @@ li.comment.depth-1 {
 .footer-widgets {
 	background-color: #000;
 	clear: both;
-	font-size: 16px;
-	font-size: 1.6rem;
+	font-size: 18px;
+	/* font-size: 1.6rem; */
 	text-align: center;
 }
 
 .footer-widgets .wrap {
-	padding-top: 200px;
+	padding-top: 100px;
 }
 
 .footer-widgets,

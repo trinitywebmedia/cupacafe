@@ -304,3 +304,12 @@ genesis_register_sidebar( array(
 	'name'        => __( 'Front Page 4', 'cafe-pro' ),
 	'description' => __( 'This is the Front Page 4 section.', 'cafe-pro' ),
 ) );
+
+//* Customize the entire footer
+remove_action( 'genesis_footer', 'genesis_do_footer' );
+add_action( 'genesis_footer', 'sp_custom_footer' );
+function sp_custom_footer() {
+	?>
+	<p>&copy; Copyright 2018 <a href="http://cupacafe.com">Cupa Cafe</a> &middot; All Rights Reserved &middot; Developed by <a href="http://trinitywebmedia.com">Trinity Web Media</a> &middot; <a href="http://trinitywebmedia.com">NJ WordPress Development</a></p>
+	<?php
+}
